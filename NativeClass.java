@@ -1,5 +1,7 @@
 class NativeClass {
+
 	public native void printText();
+	
 	static {
 		System.loadLibrary("nativeclass");
 	}
